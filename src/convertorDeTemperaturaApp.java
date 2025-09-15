@@ -7,7 +7,7 @@ public class convertorDeTemperaturaApp {
     public void obeterDadosDeTemperatura(){
         Scanner leitor = new Scanner(System.in);
 
-        System.out.println("Vamos lá me fala qual a temperatura está agora em Celsius?");
+        System.out.print("Vamos lá me fala qual a temperatura está agora em Celsius?");
         celsius = leitor.nextDouble();
 
         System.out.println("Muito bem, agora espera um minutinho que vou calcular para você");
@@ -23,9 +23,9 @@ public class convertorDeTemperaturaApp {
 
     public void exibirResultadosDoConversor(){
         System.out.println("olha é o segunte.");
-        System.out.println("O graus Celsius " + celsius + " que você falou convertido é o seguinte:");
-        System.out.println("Em Kelvin deu: " + kelvin + ".");
-        System.out.println("Em Fahrenheit deu: " + fahrenheit + ".");
+        System.out.println("O graus Celsius " + celsius + "°C que você falou convertido é o seguinte:");
+        System.out.println("Em Kelvin deu: " + kelvin + "°K.");
+        System.out.println("Em Fahrenheit deu: " + fahrenheit + "°F.");
         System.out.println("Espero ter ajudado, tenha um bom dia");
     }
 }
